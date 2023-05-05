@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Michroma&display=swap');
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:"Michroma", sans-serif;
+}
+
+body {
+    background-color: whitesmoke;
+}
+
+.d-flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.container-login{
+    display: flex;
+    width:400px;
+    flex-direction: row;
+    margin: 0 5px;
+}
+
+.wrapper-login{
+    width: 100%;
+    background-color: #ecedf0;
+    border-radius: 5px;
+    box-shadow: 0px 4px 10px 1px rgba(0, 0, 0, 0.1);
+}
+
+.wrapper-login .title{
+    height: 90px;
+    background-color: #1e2746;
+    border-radius: 5px 5px 0 0;
+    color: whitesmoke;
+    font-size: 30px;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.wrapper-login .form-login{
+    padding: 25px;
+}
+.wrapper-login .form-login .row {
+    height: 45px;
+    margin-bottom: 15px;
+    position: relative;
+}
+.wrapper-login .form-login .row input{
+    height: 100%;
+    width: 100%;
+    outline: none;
+    padding-left: 60px;
+    border-radius: 5px;
+    border: 1px solid rgb(121, 121, 218);
+    font-size: 16px;
+    transition: all 0.3s ease;
+}
+
+.wrapper-login .form-login .row i{
+    position: absolute;
+    width: 47px;
+    height: 100%;
+    color: antiquewhite;
+    font-size: 18px;
+    background-color: #192039;
+    border: 1px solid black;
+    border-radius: 5px 0 0 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.wrapper-login .form-login .row-button input{
+    width: 100%;
+    height: 100%;
+    color:whitesmoke;
+    background-color: #1e2746 ;
+    font-size: 18px;
+    font-weight: 300;
+    padding-left: 0px;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.wrapper-login .form-login .row-button input:hover{
+    background-color: #0088cc;
+}
+
+.wrapper-login .form-login .signup-link{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.wrapper-login .form-login .signup-link a{
+    color: #192039;
+    text-decoration: none;
+}
+.wrapper-login .form-login .signup-link a:hover{
+    color: #0088cc;
+}
+
